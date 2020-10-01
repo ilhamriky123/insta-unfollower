@@ -49,7 +49,7 @@ def login():
             'X-CSRFToken': reponse.cookies['csrftoken']
         })
     else:
-        print("No csrf token found in cookies, maybe you are temp ban? Wait 1 hour and retry")
+        print("No csrf token found in coookiws, maybe you are temp ban? Tunggu 1 jam dan coba lagi")
         return False
 
     time.sleep(random.randint(2, 6))
